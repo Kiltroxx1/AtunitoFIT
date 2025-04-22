@@ -20,5 +20,25 @@
 
     <div id="ejercicios"></div>
     <script src="script.js"></script>
+    <div id="progreso">
+        <h3>Registrar Progreso</h3>
+        <form id="formulario-progreso">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" required>
+    
+            <label for="repeticiones">Repeticiones:</label>
+            <input type="number" id="repeticiones" required>
+    
+            <button type="submit">Registrar</button>
+        </form>
+    
+        <div id="historial-progreso">
+            <h4>Tu Historial</h4>
+            <ul id="progreso-lista">
+                <!-- Aquí se mostrarán los registros de progreso -->
+            </ul>
+        </div>
+    </div>
+    
 </body>
 </html>
