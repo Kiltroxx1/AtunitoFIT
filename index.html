@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AtunitoFIT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtunitoFIT</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Bienvenido a AtunitoFIT</h1>
-  <p>¡Tu app fitness personalizada!</p>
+    <header>
+        <h1>Bienvenido a AtunitoFIT</h1>
+        <p>Selecciona un grupo muscular para comenzar</p>
+    </header>
+
+    <div class="container">
+        <button id="espalda">Entrenar Espalda</button>
+        <button id="pecho">Entrenar Pecho</button>
+        <button id="piernas">Entrenar Piernas</button>
+    </div>
+
+    <div id="ejercicios"></div>
+    <script src="script.js"></script>
 </body>
 </html>
